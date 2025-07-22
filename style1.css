@@ -1,0 +1,96 @@
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: purple;
+  color: white;
+}
+
+
+header {
+  background-color:white;
+  color: purple;
+  text-align: center;
+  padding: 30px 0;
+}
+
+
+#about {
+  display: flex;
+  align-items: center;
+  padding: 40px;
+  background: purple;
+}
+#about img {
+  width: 200px;
+  border-radius: 100px;
+  margin-right: 30px;
+}
+#about div {
+  max-width: 600px;
+}
+
+
+#skills {
+  padding: 40px;
+  background-color: white;
+}
+#skills ul {
+  list-style: none;
+  padding: 0;
+}
+#skills li {
+  background: purple;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+
+#projects {
+  background-image: url("prflpro1.png");
+  background-size: contain;
+  background-position: center;
+  padding: 20px;
+  color: white;
+}
+#projects .overlay {
+  background-color: rgba(0, 0, 0, 0.6); 
+  padding: 20px;
+  border-radius: 5px;
+}
+.project {
+  background: rgba(255, 255, 255, 0.1);
+  margin-bottom: 20px;
+  padding: 20px;
+  border-left: 4px solid #00aaff;
+}
+
+
+#resume {
+  padding: 40px;
+  text-align: left;
+}
+.btn {
+  display:inline-flex;
+  background: white;
+  color: purple;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 6px;
+}
+
+
+#contact {
+  padding: 40px;
+  background-color:purple;
+}
+
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: white;
+  color: purple;
+}
